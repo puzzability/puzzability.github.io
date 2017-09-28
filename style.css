@@ -118,21 +118,8 @@ nav ul li:hover {
     left: 0;
 }
 
-table {
-  text-align: center;
-  margin: 0 auto;
-  border-collapse: collapse;
-}
-
-td {
-  font-size: 18px;
-  width: 20%;
-  max-width: 100%;
-  padding: 1.5% 0%;
-}
-
-td img {
-  display: none;
+.one{
+	display: none;
 }
 
 }
