@@ -97,7 +97,7 @@ nav ul li:hover {
   color: #3969C6;
 }
 
-@media screen and (max-width:775px) {
+@media screen and (max-width:600px) {
    nav a {
        max-width: 100%;
        padding: 0px 5px 0px 5px;
