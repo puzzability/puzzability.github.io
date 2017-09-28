@@ -115,6 +115,7 @@ nav ul li:hover {
     max-width: 100%;
     color: white;
     font-size: 19px;
+    left: 0;
 }
 
 table {
