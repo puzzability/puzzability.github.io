@@ -1,0 +1,268 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Blue Puzzability Header  */
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#header {
+  background-color: #3969C6;
+  height: 60px;
+  width: 100%;
+  text-align: center; 
+}
+
+#body {
+    height: 100%;
+    width: 100%;
+}​
+
+#footer {
+    height: 100px;
+    width: 100%;
+}
+
+
+#footerIndex {
+  border-top: white solid 0.5px;
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 5px;
+  bottom: 0;
+}
+
+.banner {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: 26px;
+  font-weight: 300px;
+}
+
+.header {
+  background-color: #3969C6;
+  width: 100%;
+  padding-top: 0.5%;
+  color: black;
+  text-align: center;
+  height: 70px;
+  font-weight: lighter;
+}
+
+
+
+nav ul {
+  background-color: #333333;
+  overflow: hidden;
+  color: white;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  -webkit-transition: max-height 0.4s;
+  -ms-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -o-transition: max-height 0.4s;
+  transition: max-height 0.4s;
+
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+    padding: 1% 0;
+    text-decoration: none;
+    width: 24%;
+    max-width: 100%;
+    color: white;
+    font-size: 19px;
+}
+
+nav ul li:hover {
+  background-color: white;
+  color: #3969C6;
+}
+
+
+/* Index Slogan and Logo Individually */
+.slogan {
+  color: white;
+
+  text-align: center;
+  font-size: 28px;
+  max-width: 100%;
+
+  font-weight: lighter;
+  z-index: 2;
+}
+
+.logo {
+  max-width: 100%;
+  width: 15%;
+
+}
+
+
+.logo-slogan {
+  text-align: center;
+  color: white;
+  margin: 9% 9%;
+  position: absolute;
+  width: 80%;
+}
+
+
+
+.logo-slogan img {
+  display: block;
+  width: 15%;
+  max-width: 100%;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.backbutton {
+  position: fixed;
+  max-width: 5%;
+  max-height: 5%;
+  left: 8%;
+  top: 15%;
+}
+
+
+
+
+
+table {
+  text-align: center;
+  margin: 0 12%;
+  border-collapse: collapse;
+}
+
+td {
+  font-size: 18px;
+  width: 15%;
+  max-width: 70%;
+  padding: 1.5% 0%;
+}
+
+td img {
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+  padding: 0 15%;
+}
+
+tr { 
+  border: solid #D1D1D0;
+  border-width: 0.6px 0;
+}
+
+
+
+
+.containerNews {
+  max-width: 100%;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.containerNews img {
+  height: auto;
+  width: 20%;
+  max-width: 100%;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+
+.containerNews h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin: auto;
+  max-width: 100%;
+  width: 70%;
+  margin-bottom: 1%;
+}
+
+.containerNews p {
+  font-weight: 400;
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+
+
+
+.whatIsText {
+  max-width: 70%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.containerWhatIcons {
+  max-width: 100%;
+  margin-left: 0%;
+  text-align: center;
+  margin-bottom: 5%; 
+}
+
+.containerWhatIcons img {
+  max-width: 100%;
+  height: auto;
+    min-width: 0.1%;
+    height: auto;
+}
+
+
+
+
+.whoIs h2 {
+  padding-bottom: 1%;
+}
+
+
+.footer-other {
+  max-width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  margin-top: .1%;
+  padding: 0.5% 0%;
+  height: 30px;
+  margin: 0 auto;
+
+}
+
+
+
+
