@@ -97,6 +97,45 @@ nav ul li:hover {
   color: #3969C6;
 }
 
+@media screen and (max-width:775px) {
+   nav a {
+       max-width: 100%;
+       padding: 0px 5px 0px 5px;
+       float: none;
+       text-align: center;
+       display: block;
+   }
+
+   nav ul li {
+  	display: inline-block;
+  	text-align: center;
+    padding: 1% 0;
+    text-decoration: none;
+    width: 40%;
+    max-width: 100%;
+    color: white;
+    font-size: 19px;
+}
+
+table {
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  font-size: 18px;
+  width: 20%;
+  max-width: 100%;
+  padding: 1.5% 0%;
+}
+
+td img {
+  display: none;
+}
+
+}
+
 
 /* Index Slogan and Logo Individually */
 .slogan {
