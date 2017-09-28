@@ -5,6 +5,7 @@ body {
   height: 100%;
   font-family: 'Nunito Sans', sans-serif;
   position: relative;
+  -webkit-text-size-adjust: 100%;
 }
 
 html {
