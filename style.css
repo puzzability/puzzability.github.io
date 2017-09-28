@@ -99,10 +99,12 @@ nav ul li:hover {
   color: #3969C6;
 }
 
+
+
 @media screen and (max-width:550px) {
    nav a {
        max-width: 100%;
-       padding: 4% 0% 0% 0%;
+       padding: 2% 2%;
        float: none;
        text-align: center;
        display: block;
@@ -123,8 +125,19 @@ nav ul li:hover {
   .one {
 	display: none;
 }
-
+  .two {
+	max-width: 100%;
+	width: 6%;
+	margin: 0 2%;
+	}
+  nav ul li:hover {
+  background-color: white;
+  color: #3969C6;
+  max-width: 100%;
+  width: 100%;
 }
+}
+
 
 
 /* Index Slogan and Logo Individually */
