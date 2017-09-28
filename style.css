@@ -111,8 +111,8 @@ nav ul li:hover {
    }
 
    nav ul li {
-  	display: inline-block;
-  	text-align: center;
+    display: inline-block;
+    text-align: center;
     padding: 1% 0;
     text-decoration: none;
     width: 40%;
@@ -123,13 +123,13 @@ nav ul li:hover {
 }
 
   .one {
-	display: none;
+  display: none;
 }
   .two {
-	max-width: 100%;
-	width: 6%;
-	margin: 0 2%;
-	}
+  max-width: 100%;
+  width: 6%;
+  margin: 0 2%;
+  }
   nav ul li:hover {
   background-color: white;
   color: #3969C6;
