@@ -99,7 +99,7 @@ nav ul li:hover {
   color: #3969C6;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:550px) {
    nav a {
        max-width: 100%;
        padding: 4% 0% 0% 0%;
@@ -120,7 +120,7 @@ nav ul li:hover {
     left: 0;
 }
 
-.one{
+  .one {
 	display: none;
 }
 
@@ -178,7 +178,7 @@ nav ul li:hover {
 
 table {
   text-align: center;
-  margin: 0 12%;
+  margin: 0 5%;
   border-collapse: collapse;
 }
 
@@ -190,7 +190,7 @@ td {
 }
 
 td h3{
-text-align: left;
+text-align: center;
 }
 
 td img {
