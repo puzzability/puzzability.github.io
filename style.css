@@ -88,7 +88,7 @@ nav ul li {
   text-align: center;
     padding: 1% 0;
     text-decoration: none;
-    width: 24%;
+    width: 17%;
     max-width: 100%;
     color: white;
     font-size: 19px;
@@ -108,6 +108,7 @@ nav ul li:hover {
        float: none;
        text-align: center;
        display: block;
+       margin-bottom: 5%;
    }
 
    nav ul li {
@@ -115,11 +116,12 @@ nav ul li:hover {
     text-align: center;
     padding: 1% 0;
     text-decoration: none;
-    width: 40%;
+    width: 50%;
     max-width: 100%;
     color: white;
     font-size: 19px;
     left: 0;
+    margin-bottom: 5%;
 }
 
   .one {
@@ -304,3 +306,26 @@ tr {
   clear: both;
   padding: 1.5% 0%;
 }
+
+#contactInfo {
+	text-align: center;
+	margin-top: 16%;
+	text-decoration: none;
+
+}
+
+#contactFooter {
+  background-color: #3969C6;
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 23px;
+  bottom: 0;
+  clear: both;
+  padding: 1.5% 0%;
+}
+
+
+
+
