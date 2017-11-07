@@ -74,7 +74,7 @@ a {
 
 #backButton img {
     left: 4%;
-    top: 90%;
+    top: 10%;
     width: 50px;
     color: #333333;
     position: fixed;
@@ -299,5 +299,6 @@ p {
 
     #backButton img {
         width: 7%;
+        top: 70%;
     }
 }
