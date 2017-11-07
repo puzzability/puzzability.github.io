@@ -269,6 +269,7 @@ p {
         float: both;
         padding: 20px;
         margin-left: -40px;
+        overflow-x: hidden;
     }
     #navbar {
         padding: 0;
