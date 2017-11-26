@@ -1,331 +1,209 @@
-body {
-  background-color: #FFF;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: 'Nunito Sans', sans-serif;
-  position: relative;
-  -webkit-text-size-adjust: 100%;
-}
-
+body,
 html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  -webkit-text-size-adjust: 100%;
-
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-weight: 100;
 }
 
-* {
-  margin: 0; padding: 0
+header {
+    background-color: #3969C6;
+    font-size: 2.2em;
+    padding: 10px 0px;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Blue Puzzability Header  */
+header a {
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+/*home page*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    height: 3em;
+    align-items: center;
+}
+
+a {
+    padding: 10px 6px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0px 25px;
+    font-weight: 100;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
 #container {
+    background-color: #3969C6;
+    height: 100vh;
+}
+
+#logoSlogan {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 100%;
-    position: absolute;
 }
 
-#header {
-  background-color: #3969C6;
-  height: 60px;
-  width: 100%;
-  text-align: center; 
-  padding-top: 1.2%;
+#logoSlogan h1 {
+    color: white;
+    font-weight: 100;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 2px;
 }
 
-#body {
-    height: 100%;
-    width: 100%;
-}​
+/* end home page*/
 
-#footer {
-  background-color: #3969C6;
-  position: absolute;
-  width: 100%;
-  color: white;
-  text-align: center;
-  height: 8px;
-  bottom: 0;
+footer {
+    background-color: #3969C6;
+    color: white;
+    text-align: center;
+    border-top: 0.5px white solid;
+    letter-spacing: 1px;
+    font-weight: 100;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
 }
-
 
 #footerIndex {
-  border-top: white solid 0.5px;
-  position: absolute;
-  width: 100%;
-  color: white;
-  text-align: center;
-  height: 5px;
-  bottom: 0;
+    margin-top: 0px;
 }
+
+#newsContent img {
+    width: 150px;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+/*On every Page*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+.container img {
+    width: 65px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+.container h2 {
+    margin-bottom: 1px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*End On Every Page*/
+
+/*images on whatIs pages*/
+
+#whatIsIngredients {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#contactPage {
+    background-color: #3969C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    height: 100%;
+}
+
+#contactPage img {
+    width: 150px;
+}
+
+/*title of each page*/
 
 .banner {
-  text-align: center;
-  position: relative;
-  padding: 20px;
-  margin-top: 5px;
-  font-size: 26px;
-  font-weight: 300px;
-}
-
-
-
-
-nav ul {
-  background-color: #333333;
-  overflow: hidden;
-  color: white;
-  text-align: center;
-  margin: 0;
-
-
-}
-
-nav ul li {
-  display: inline-block;
-  text-align: center;
-    padding: 1% 0;
-    text-decoration: none;
-    width: 14%;
-    max-width: 100%;
-    color: white;
-    font-size: 19px;
-}
-
-nav ul li:hover {
-  background-color: white;
-  color: #3969C6;
-}
-
-
-
-@media screen and (max-width:650px) {
-   nav a {
-       max-width: 100%;
-       padding: 2% 2%;
-       float: none;
-       text-align: center;
-       display: block;
-       margin-bottom: 5%;
-   }
-
-   nav ul li {
-    display: inline-block;
+    font-size: 1.8em;
     text-align: center;
-    padding: 1% 0;
-    text-decoration: none;
-    width: 50%;
-    max-width: 100%;
-    color: white;
-    font-size: 19px;
-    left: 0;
-    margin-bottom: 5%;
+    margin: 20px 0;
 }
 
-  .one {
-  display: none;
+/*news page*/
+
+.newsTitles {
+    text-transform: uppercase;
 }
-  .two {
-  max-width: 100%;
-  width: 6%;
-  margin: 0 2%;
-  }
-  nav ul li:hover {
-  background-color: white;
-  color: #3969C6;
-  max-width: 100%;
-  width: 100%;
-}
-}
-
-
-
-/* Index Slogan and Logo Individually */
-.slogan {
-  color: white;
-
-  text-align: center;
-  font-size: 28px;
-  max-width: 100%;
-
-  font-weight: lighter;
-  z-index: 2;
-}
-
-.logo {
-  max-width: 100%;
-  width: 15%;
-
-}
-
-
-.logo-slogan {
-  text-align: center;
-  color: white;
-  margin: 9% 9%;
-  position: absolute;
-  width: 80%;
-}
-
-
-
-.logo-slogan img {
-  display: block;
-  width: 15%;
-  max-width: 100%;
-  z-index: 1;
-  margin: 0 auto;
-}
-
-.backbutton {
-  position: fixed;
-  max-width: 5%;
-  max-height: 5%;
-  left: 4%;
-  top: 18%;
-}
-
-
-
-
 
 table {
-  text-align: center;
-  margin: 0 5%;
-  border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
 }
 
-td {
-  font-size: 18px;
-  width: 15%;
-  max-width: 100%;
-  padding: 1.5% 0%;
-}
-
-td h3{
-text-align: center;
+table td {
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    line-height: 1.4em;
 }
 
 td img {
-  max-width: 100%;
-  width: 70%;
-  height: auto;
-  padding: 0 15%;
+    width: 100px;
 }
 
-tr { 
-  border: solid #D1D1D0;
-  border-width: 0.7px 0;
+table tr {
+    border: 1px solid black;
 }
 
 
-
-
-.containerNews {
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
+@media screen and (max-width: 920px) {
+    nav {
+        justify-content: space-around;
+    }
 }
 
-.containerNews img {
-  height: auto;
-  width: 17%;
-  max-width: 100%;
-  border-radius: 15px;
-  margin: 0 auto;
-  margin-bottom: 2%;
-  min-width: 11%;
+@media screen and (max-width: 770px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: 20em;
+    }
+    table img {
+        display: none;
+    }
+    table td {
+        padding: 5px;
+        ;
+    }
 }
-
-
-.containerNews h2 {
-  font-weight: 600;
-  font-size: 22px;
-  text-transform: uppercase;
-  margin: auto;
-  max-width: 100%;
-  width: 70%;
-  margin-bottom: 1%;
-}
-
-.containerNews p {
-  max-width: 100%;
-  width: 75%;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  line-height: 1.6em;
-}
-
-
-
-.whatIsText {
-  max-width: 100%;
-  width: 70%;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
-  line-height: 1.6em;
-}
-
-.containerWhatIcons {
-  max-width: 100%;
-  margin-left: 0%;
-  text-align: center;
-  margin-bottom: 5%; 
-}
-
-.containerWhatIcons img {
-  max-width: 100%;
-  height: auto;
-    min-width: 0.1%;
-    height: auto;
-}
-
-
-
-
-.whoIs h2 {
-  padding-bottom: 1%;
-}
-
-
-#footer {
-  background-color: #3969C6;
-  color: white;
-  max-width: 100%;
-  text-align: center;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  overflow: auto;
-  clear: both;
-  padding: 1.5% 0%;
-}
-
-#contactInfo {
-	text-align: center;
-	margin-top: 16%;
-	text-decoration: none;
-
-}
-
-#contactFooter {
-  background-color: #3969C6;
-  position: absolute;
-  width: 100%;
-  color: white;
-  text-align: center;
-  height: 23px;
-  bottom: 0;
-  clear: both;
-  padding: 1.5% 0%;
-}
-
-
-
-
