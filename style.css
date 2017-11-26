@@ -35,6 +35,12 @@ nav {
     align-items: center;
 }
 
+nav a:hover {
+    background-color: white;
+    color: black;
+    padding: 10px 6px;
+}
+
 a {
     padding: 10px 6px;
     text-decoration: none;
@@ -199,6 +205,9 @@ table tr {
         align-items: center;
         height: 20em;
     }
+    nav a:hover {
+width: 100%;
+}
     table img {
         display: none;
     }
