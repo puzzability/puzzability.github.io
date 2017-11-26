@@ -101,8 +101,12 @@ footer {
     display: flex;
     margin-bottom: 20px;
     border-radius: 20px;
+    margin-top: 0px;
 }
 
+#newsContent p {
+    margin-bottom: 25px;
+}
 /*On every Page*/
 
 .container {
