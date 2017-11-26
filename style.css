@@ -206,13 +206,12 @@ table tr {
         height: 20em;
     }
     nav a:hover {
-width: 100%;
-}
+        width: 100%;
+    }
     table img {
         display: none;
     }
     table td {
         padding: 5px;
-        ;
     }
 }
